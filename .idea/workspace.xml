@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8d71f55-89c3-4b89-8822-5700a00798a9" name="Default Changelist" comment="" />
+    <list default="true" id="e8d71f55-89c3-4b89-8822-5700a00798a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Uor4hjhmaMc1uT1Y8lrLHic1zR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +31,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Python.distplot">
-    <configuration name="bar_chart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1_2_plotly_dash_conversion">
+    <configuration name="1_1_layout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="plotly-dash" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -34,12 +44,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotly-basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dash" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotly-basic/bar_chart.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dash/1_1_layout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -48,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bar_chart2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1_2_plotly_dash_conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="plotly-dash" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,12 +66,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotly-basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dash" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotly-basic/bar_chart2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dash/1_2_plotly_dash_conversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_layouts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="plotly-dash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dash" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dash/1_layouts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,28 +116,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotly-basic/boxplot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="buble" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="plotly-dash" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotly-basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotly-basic/buble.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_2_plotly_dash_conversion" />
+        <item itemvalue="Python.1_1_layout" />
+        <item itemvalue="Python.1_layouts" />
         <item itemvalue="Python.distplot" />
         <item itemvalue="Python.boxplot" />
-        <item itemvalue="Python.buble" />
-        <item itemvalue="Python.bar_chart2" />
-        <item itemvalue="Python.bar_chart" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576033600310</updated>
       <workItem from="1576033606508" duration="1296000" />
-      <workItem from="1576035158378" duration="7171000" />
+      <workItem from="1576035158378" duration="10790000" />
     </task>
     <servers />
   </component>
@@ -177,25 +187,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="902" height="201" key="GridCell.Tab.0.bottom" timestamp="1576096671859">
+    <state width="902" height="201" key="GridCell.Tab.0.bottom" timestamp="1576101416868">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="902" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576096671859" />
+    <state width="902" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576101416868" />
     <state width="1862" height="201" key="GridCell.Tab.0.bottom/0.0.3840.1620@0.0.3840.1620" timestamp="1576086459047" />
-    <state width="902" height="201" key="GridCell.Tab.0.center" timestamp="1576096671859">
+    <state width="902" height="201" key="GridCell.Tab.0.center" timestamp="1576101416867">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="902" height="201" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576096671859" />
+    <state width="902" height="201" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576101416867" />
     <state width="1862" height="201" key="GridCell.Tab.0.center/0.0.3840.1620@0.0.3840.1620" timestamp="1576086459046" />
-    <state width="902" height="201" key="GridCell.Tab.0.left" timestamp="1576096671858">
+    <state width="902" height="201" key="GridCell.Tab.0.left" timestamp="1576101416866">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="902" height="201" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576096671858" />
+    <state width="902" height="201" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576101416866" />
     <state width="1862" height="201" key="GridCell.Tab.0.left/0.0.3840.1620@0.0.3840.1620" timestamp="1576086459045" />
-    <state width="902" height="201" key="GridCell.Tab.0.right" timestamp="1576096671859">
+    <state width="902" height="201" key="GridCell.Tab.0.right" timestamp="1576101416867">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="902" height="201" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576096671859" />
+    <state width="902" height="201" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576101416867" />
     <state width="1862" height="201" key="GridCell.Tab.0.right/0.0.3840.1620@0.0.3840.1620" timestamp="1576086459046" />
     <state x="274" y="188" key="SettingsEditor" timestamp="1576035739717">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -212,11 +222,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/plotly_dash$boxplot.coverage" NAME="boxplot Coverage Results" MODIFIED="1576094994343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
+    <SUITE FILE_PATH="coverage/plotly_dash$1_1_layout.coverage" NAME="1_1_layout Coverage Results" MODIFIED="1576100119107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />
+    <SUITE FILE_PATH="coverage/plotly_dash$1_2_plotly_dash_conversion.coverage" NAME="1_2_plotly_dash_conversion Coverage Results" MODIFIED="1576101416859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />
     <SUITE FILE_PATH="coverage/plotly_dash$bar_chart2.coverage" NAME="bar_chart2 Coverage Results" MODIFIED="1576086459038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
     <SUITE FILE_PATH="coverage/plotly_dash$bar_charts.coverage" NAME="line_charts Coverage Results" MODIFIED="1576080054899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
     <SUITE FILE_PATH="coverage/plotly_dash$bar_chart.coverage" NAME="bar_chart Coverage Results" MODIFIED="1576085218278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
     <SUITE FILE_PATH="coverage/plotly_dash$line_chart2.coverage" NAME="line_chart2 Coverage Results" MODIFIED="1576081106588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
     <SUITE FILE_PATH="coverage/plotly_dash$buble.coverage" NAME="buble Coverage Results" MODIFIED="1576094069421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
     <SUITE FILE_PATH="coverage/plotly_dash$distplot.coverage" NAME="distplot Coverage Results" MODIFIED="1576096671844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
+    <SUITE FILE_PATH="coverage/plotly_dash$1_layouts.coverage" NAME="1_layouts Coverage Results" MODIFIED="1576099997135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />
   </component>
 </project>
