@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d71f55-89c3-4b89-8822-5700a00798a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dash/interacting_1_click.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dash/interacting_1_hover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dash/interacting_4_updating_gaphs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/interacting_4_updating_gaphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/interacting_4_updating_gaphs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +179,7 @@
       <workItem from="1576033606508" duration="1296000" />
       <workItem from="1576035158378" duration="14147000" />
       <workItem from="1576166076750" duration="11549000" />
-      <workItem from="1576616373946" duration="6703000" />
+      <workItem from="1576616373946" duration="8762000" />
     </task>
     <servers />
   </component>
@@ -190,26 +187,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1862" height="348" key="GridCell.Tab.0.bottom" timestamp="1576642649217">
+    <state width="1862" height="348" key="GridCell.Tab.0.bottom" timestamp="1576688220337">
       <screen x="0" y="0" width="3840" height="1620" />
     </state>
     <state width="902" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576617326476" />
-    <state width="1862" height="348" key="GridCell.Tab.0.bottom/0.0.3840.1620@0.0.3840.1620" timestamp="1576642649217" />
-    <state width="1862" height="348" key="GridCell.Tab.0.center" timestamp="1576642649216">
+    <state width="1862" height="348" key="GridCell.Tab.0.bottom/0.0.3840.1620@0.0.3840.1620" timestamp="1576688220337" />
+    <state width="1862" height="348" key="GridCell.Tab.0.center" timestamp="1576688220336">
       <screen x="0" y="0" width="3840" height="1620" />
     </state>
     <state width="902" height="348" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576617326475" />
-    <state width="1862" height="348" key="GridCell.Tab.0.center/0.0.3840.1620@0.0.3840.1620" timestamp="1576642649216" />
-    <state width="1862" height="348" key="GridCell.Tab.0.left" timestamp="1576642649216">
+    <state width="1862" height="348" key="GridCell.Tab.0.center/0.0.3840.1620@0.0.3840.1620" timestamp="1576688220336" />
+    <state width="1862" height="348" key="GridCell.Tab.0.left" timestamp="1576688220336">
       <screen x="0" y="0" width="3840" height="1620" />
     </state>
     <state width="902" height="348" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576617326474" />
-    <state width="1862" height="348" key="GridCell.Tab.0.left/0.0.3840.1620@0.0.3840.1620" timestamp="1576642649216" />
-    <state width="1862" height="348" key="GridCell.Tab.0.right" timestamp="1576642649217">
+    <state width="1862" height="348" key="GridCell.Tab.0.left/0.0.3840.1620@0.0.3840.1620" timestamp="1576688220336" />
+    <state width="1862" height="348" key="GridCell.Tab.0.right" timestamp="1576688220336">
       <screen x="0" y="0" width="3840" height="1620" />
     </state>
     <state width="902" height="348" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576617326475" />
-    <state width="1862" height="348" key="GridCell.Tab.0.right/0.0.3840.1620@0.0.3840.1620" timestamp="1576642649217" />
+    <state width="1862" height="348" key="GridCell.Tab.0.right/0.0.3840.1620@0.0.3840.1620" timestamp="1576688220336" />
     <state x="548" y="254" key="SettingsEditor" timestamp="1576640437385">
       <screen x="0" y="0" width="3840" height="1620" />
     </state>
@@ -234,7 +231,7 @@
     <SUITE FILE_PATH="coverage/plotly_dash$bar_chart.coverage" NAME="bar_chart Coverage Results" MODIFIED="1576085218278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
     <SUITE FILE_PATH="coverage/plotly_dash$interaction_callback_1.coverage" NAME="interaction_callback_1 Coverage Results" MODIFIED="1576167023674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />
     <SUITE FILE_PATH="coverage/plotly_dash$buble.coverage" NAME="buble Coverage Results" MODIFIED="1576094069421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
-    <SUITE FILE_PATH="coverage/plotly_dash$interacting_4_updating_gaphs.coverage" NAME="interacting_4_updating_gaphs Coverage Results" MODIFIED="1576642649206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />
+    <SUITE FILE_PATH="coverage/plotly_dash$interacting_4_updating_gaphs.coverage" NAME="interacting_4_updating_gaphs Coverage Results" MODIFIED="1576688220329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />
     <SUITE FILE_PATH="coverage/plotly_dash$distplot.coverage" NAME="distplot Coverage Results" MODIFIED="1576096671844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plotly-basic" />
     <SUITE FILE_PATH="coverage/plotly_dash$components_1.coverage" NAME="components_1 Coverage Results" MODIFIED="1576120637993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />
     <SUITE FILE_PATH="coverage/plotly_dash$1_layouts.coverage" NAME="1_layouts Coverage Results" MODIFIED="1576099997135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dash" />

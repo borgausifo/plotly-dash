@@ -31,7 +31,8 @@ app.layout = html.Div([
                                               y=[0, 1],
                                               mode='lines')],
                           'layout': go.Layout(title='Acceleration', margin={'l': 0})})
-    ])
+    ], style={'width': '20%', 'height': '50%', 'display': 'inline-block'}),
+    html.Div([dcc.Markdown(id='mpg-stats')], style={'width': '20%', 'display': 'inline-block', 'height': '50%'})
 
 ])
 
@@ -44,9 +45,21 @@ def callback_graph(hoverData):
                                   y=[0, 60 / df.iloc[v_index]['acceleration']],
                                   mode='lines')],
               'layout': go.Layout(title=df.iloc[v_index]['name'],
+                                  xaxis={'visible': False},
+                                  yaxis={'visible': False, 'range': [0, 60 / df['acceleration'].min()]},
                                   margin={'1': 0},
                                   height=300)}
     return figure
+
+
+@app.callback(Output('mpg-stats', 'children'), [Input('mpg-scatter', 'hoverData')])
+def callback_stats(hoverData):
+    v_index = hoverData['points'][0]['pointIndex']
+    stats = f"""
+    {df.iloc[v_index]['cylinders']} cylinders
+    {df.iloc[v_index]['displacement']} cc displacement
+    """
+    return stats
 
 
 if __name__ == '__main__':
