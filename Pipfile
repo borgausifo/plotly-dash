@@ -12,6 +12,7 @@ numpy = "*"
 scipy = "*"
 dash = "*"
 flask = "*"
+pandas-datareader = "*"
 
 [requires]
 python_version = "3.8"
